@@ -5,3 +5,16 @@ E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.dll
 E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.deps.json
 E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.runtimeconfig.json
 E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.pdb
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\AWSSDK.Core.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\AWSSDK.SecurityToken.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\DnsClient.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\MongoDB.Bson.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\MongoDB.Driver.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\MongoDB.Driver.Core.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\MongoDB.Libmongocrypt.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SharpCompress.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\Snappier.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\ZstdSharp.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\runtimes\linux\native\libmongocrypt.so
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\runtimes\osx\native\libmongocrypt.dylib
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\runtimes\win\native\mongocrypt.dll
