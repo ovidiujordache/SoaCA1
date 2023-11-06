@@ -8,8 +8,8 @@ namespace SoaCA1.Pages
         private readonly ILogger<IndexModel> _logger;
         private readonly IHttpClientService _httpClientService;
         private readonly IConfiguration _configuration;
-        public IndexModel(ILogger<IndexModel> logger,IHttpClientService clientService,IConfiguration conf)
-            
+        public IndexModel(ILogger<IndexModel> logger, IHttpClientService clientService, IConfiguration conf)
+
         {
             _httpClientService = clientService;
             _configuration = conf;
@@ -29,7 +29,7 @@ namespace SoaCA1.Pages
             }
 
 
-    
+
 
         }
 

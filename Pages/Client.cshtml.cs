@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using SoaCA1;
 using SoaCA1.Services;
-using System.Diagnostics;
 
 namespace SoaCA1.Pages
 {
@@ -10,9 +8,12 @@ namespace SoaCA1.Pages
     {
         private readonly IHttpClientService _httpClientService;
         private readonly IConfiguration _configuration;
-        public ClientModel(IHttpClientService clientService, IConfiguration conf)
+        private readonly ILogger<ClientModel> _logger;
+
+        public ClientModel(ILogger<ClientModel> logger, IHttpClientService clientService, IConfiguration conf)
 
         {
+            _logger = logger;
             _httpClientService = clientService;
             _configuration = conf;
         }
@@ -22,24 +23,25 @@ namespace SoaCA1.Pages
         public string GetClientToken { get; set; }
         public void OnGet()
         {
-            Task<string> tokenReturned=AuthUser();
-          System.Diagnostics.Debug.WriteLine(tokenReturned);
-                     
+          AuthUser();
+
         }
-        public async Task<string> AuthUser()
+        public async  Task<IActionResult> AuthUser()
         {
-           
+
             try
             {
-               string  token = await _httpClientService.GetClientToken(_configuration["Spotify:ClientId"],
-                                       _configuration["Spotify:ClientSecret"]);
+              var token = await _httpClientService.GetClientToken(_configuration["Spotify:ClientId"],
+                                        _configuration["Spotify:ClientSecret"]);
+                System.Diagnostics.Debug.WriteLine("no tokennnn");
+                _logger.LogInformation("Token is " + token);
             }
             catch (Exception e)
             {
                 System.Diagnostics.Debug.WriteLine(e);
             }
-            return null;
+            return Page(); ;
         }
-   
+
     }
 }

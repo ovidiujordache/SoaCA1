@@ -1,6 +1,6 @@
 ﻿namespace SoaCA1.Services
 {
-    public class DbConnection: IDbConnection
+    public class DbConnection : IDbConnection
     {
         /*     var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
          if (connectionString == null)
