@@ -1,12 +1,16 @@
 .register-photo {
-    background: #417D80;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,125,128,1) 35%, rgba(0,212,255,1) 100%);
     padding: 80px 0;
+    border-radius: 30px;
 }
 
     .register-photo .image-holder {
         display: table-cell;
         width: auto;
-        background: #162856;
+      background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,40,86,1) 35%, rgba(0,212,255,1) 100%); 
         background-size: cover;
     }
 
@@ -39,7 +43,7 @@
 }
 
 .register-photo form .form-control {
-    background: #fffff;
+    background: #ffff;
     border: none;
     border-bottom: 1px solid #dfe7f1;
     border-radius: 0;
@@ -54,7 +58,12 @@
   font-size: 13px;
   line-height: 20px;
 }
-
+.btn-primary {
+    background: #061539
+}
+    .btn-primary:hover {
+        background: #2bd9e0;
+    }
 .register-photo form .btn-primary {
     background: #061539;
     border: none;
