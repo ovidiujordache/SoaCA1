@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Text.Json;
-using MongoDB.Driver;
-using MongoDB.Bson;
-using System.ComponentModel;
 
 namespace SoaCA1.Pages
 {
@@ -16,7 +12,7 @@ namespace SoaCA1.Pages
             _logger = logger;
         }
 
-        [BindProperty(SupportsGet =true)]
+        [BindProperty(SupportsGet = true)]
         public string Email { get; set; }
 
         [BindProperty(SupportsGet = true)]
@@ -25,7 +21,7 @@ namespace SoaCA1.Pages
         {
             if (Name == null)
             {
-               Name = "John Doe from Get method";
+                Name = "John Doe from Get method";
             }
 
 
@@ -47,7 +43,7 @@ namespace SoaCA1.Pages
                  Console.WriteLine(document);*/
 
         }
-    
+
 
 
     }

@@ -1,27 +1,25 @@
-﻿using SoaCA1.Services;
-using System;
+﻿using SoaCA1.Models;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
-using SoaCA1.Services;
-using SoaCA1.Models;
 namespace SoaCA1.Services
 
 {
     //implementing the interface IHhtpClientService
-    public class HttpClientService:IHttpClientService
+    public class HttpClientService : IHttpClientService
     {
         private readonly HttpClient _client;
-        public HttpClientService(HttpClient httpClient) {
-            _client=httpClient;
+        public HttpClientService(HttpClient httpClient)
+        {
+            _client = httpClient;
         }
 
-     
-      public   async Task<string>  GetClientToken(string client_id, string client_secret)
+
+        public async Task<string> GetClientToken(string client_id, string client_secret)
         {
-            var request = new HttpRequestMessage(HttpMethod.Post,"token");
+            var request = new HttpRequestMessage(HttpMethod.Post, "token");
             request.Headers.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{client_id}:{client_secret}")));
-            
+
             request.Content = new FormUrlEncodedContent(new Dictionary<string, string>
             {
                 ["grant_type"] = "client_credentials"
@@ -43,13 +41,13 @@ namespace SoaCA1.Services
                 return authToken.access_token;
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
             }
-                        catch (Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e);
-           
-                throw;  
+
+                throw;
             }
 
-            }
+        }
     }
 }

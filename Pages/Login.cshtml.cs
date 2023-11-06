@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using SoaCA1.Models;
 
 namespace SoaCA1.Pages
 {
@@ -17,14 +16,14 @@ namespace SoaCA1.Pages
 
         public IActionResult OnPost()
         {
-            if(ModelState.IsValid == false)
+            if (ModelState.IsValid == false)
             {
                 return Page();
 
             }
             return RedirectToPage("/Index");
         }
-    
+
     }
 
 }

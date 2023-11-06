@@ -7,7 +7,7 @@ namespace SoaCA1.Pages
     public class RegisterModel : PageModel
     {
         private readonly ILogger<RegisterModel> _logger;
-       
+
 
         public RegisterModel(ILogger<RegisterModel> logger)
         {
@@ -18,7 +18,7 @@ namespace SoaCA1.Pages
 
         public void OnGet()
         {
-          
+
         }
 
         public IActionResult OnPost()
@@ -28,7 +28,7 @@ namespace SoaCA1.Pages
                 return Page();
 
             }
-            return RedirectToPage("/Index", new  {User.Name });
+            return RedirectToPage("/Index", new { User.Name });
         }
 
 

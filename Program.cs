@@ -1,8 +1,15 @@
+using SoaCA1.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+builder.Services.AddHttpClient<IHttpClientService, HttpClientService>(urlApi =>
+{
+    urlApi.BaseAddress = new Uri("https://accounts.spotify.com/api/");
+});
+//adding configuration file
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
