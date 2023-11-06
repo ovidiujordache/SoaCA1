@@ -1,14 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
+using SoaCA1.Services;
 namespace SoaCA1.Pages
 {
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
+        private readonly IHttpClientService _httpClientService;
+        private readonly IConfiguration _configuration;
+        public IndexModel(ILogger<IndexModel> logger,IHttpClientService clientService,IConfiguration conf)
+            
         {
+            _httpClientService = clientService;
+            _configuration = conf;
             _logger = logger;
         }
 
@@ -25,22 +29,7 @@ namespace SoaCA1.Pages
             }
 
 
-            /*     var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
-                 if (connectionString == null)
-                 {
-                     Console.WriteLine("You must set your 'MONGODB_URI' environment variable. To learn how to set it, see https://www.mongodb.com/docs/drivers/csharp/current/quick-start/#set-your-connection-string");
-                     Environment.Exit(0);
-                 }
-
-                 var client = new MongoClient(connectionString);
-
-                 var collection = client.GetDatabase("sample_mflix").GetCollection<BsonDocument>("movies");
-
-                 var filter = Builders<BsonDocument>.Filter.Eq("title", "Back to the Future");
-
-                 var document = collection.Find(filter).First();
-
-                 Console.WriteLine(document);*/
+    
 
         }
 

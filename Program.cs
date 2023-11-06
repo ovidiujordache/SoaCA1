@@ -4,11 +4,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+/*adding http client service with URL */
 builder.Services.AddHttpClient<IHttpClientService, HttpClientService>(urlApi =>
 {
     urlApi.BaseAddress = new Uri("https://accounts.spotify.com/api/");
 });
-//adding configuration file
+//adding configuration file for credentials and other settings  
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 var app = builder.Build();
 

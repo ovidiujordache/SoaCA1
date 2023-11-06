@@ -36,6 +36,8 @@ namespace SoaCA1.Services
 
                 //deserialize the response to a ClientModel object .token, .token_type, .expires_in
                 var authToken = await JsonSerializer.DeserializeAsync<ClientModel>(responseStream);
+                System.Diagnostics.Debug.WriteLine("What questions should I ask");
+                System.Diagnostics.Debug.WriteLine(authToken);
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
                 return authToken.access_token;
