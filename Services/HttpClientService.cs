@@ -27,14 +27,29 @@ namespace SoaCA1.Services
                 ["grant_type"] = "client_credentials"
             });
             //throw new NotImplementedException();
-            var response = await _client.SendAsync(request);
-            response.EnsureSuccessStatusCode();
-            using  var responseStream = await response.Content.ReadAsStreamAsync();
+            try
+            {
 
 
-            var authToken = await JsonSerializer.DeserializeAsync<ClientModel>(responseStream);
 
-    
+                var response = await _client.SendAsync(request);
+                response.EnsureSuccessStatusCode();
+                using var responseStream = await response.Content.ReadAsStreamAsync();
+
+                //deserialize the response to a ClientModel object .token, .token_type, .expires_in
+                var authToken = await JsonSerializer.DeserializeAsync<ClientModel>(responseStream);
+
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+                return authToken.access_token;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+            }
+                        catch (Exception e)
+            {
+                Console.WriteLine(e);
+           
+                throw;  
+            }
+
             }
     }
 }
