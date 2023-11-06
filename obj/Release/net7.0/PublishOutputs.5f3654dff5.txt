@@ -1,0 +1,7 @@
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.exe
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\appsettings.json
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.dll
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.deps.json
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.runtimeconfig.json
+E:\PROJECTS_YEAR_4\SOA\SoaCA1\obj\Release\net7.0\PubTmp\Out\SoaCA1.pdb

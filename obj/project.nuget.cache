@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zDj/WuEWFYxvIFZshaczD5yxZ67Lgymjy3Eu7agZfJDqQniA5eAquLh5JMssjudBOHfhOQ+u6KcJU0BetI9G7A==",
+  "success": true,
+  "projectFilePath": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\SoaCA1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ovi_j\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
