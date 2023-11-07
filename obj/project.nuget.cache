@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f0cMqEmSrJeMtx6zC1jtbhEHQA7MVy6A0k363MSN2RCXtjH0ErKU57HmgPXCxdbLILvc50SL8lOXBmsmpzViuQ==",
+  "dgSpecHash": "xNQEXlRjOtesvlLMyIAteVJMo1A1j/aL16/SBsCnG3uJsvNp9qXIBbEd8j/N7XrDY/iHv6p52SPiQPIi1xNcBQ==",
   "success": true,
-  "projectFilePath": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\SoaCA1.csproj",
+  "projectFilePath": "C:\\Users\\ovi_j\\source\\repos\\ServiceOrientedArchitectureCA1\\SoaCA1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ovi_j\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\ovi_j\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

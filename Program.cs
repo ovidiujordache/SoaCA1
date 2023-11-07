@@ -7,7 +7,7 @@ builder.Services.AddRazorPages();
 /*adding http client service with URL */
 builder.Services.AddHttpClient<IHttpClientService, HttpClientService>(urlApi =>
 {
-    urlApi.BaseAddress = new Uri("https://accounts.spotify.com/api/");
+    urlApi.BaseAddress = new Uri("https://accounts.spotify.com/api/token");
 });
 //adding configuration file for credentials and other settings  
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
