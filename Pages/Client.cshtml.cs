@@ -33,7 +33,7 @@ namespace SoaCA1.Pages
             {
               var token = await _httpClientService.GetClientToken(_configuration["Spotify:client_id"],
                                         _configuration["Spotify:client_secret"]);
-                System.Diagnostics.Debug.WriteLine("no tokennnn");
+                 System.Diagnostics.Debug.WriteLine("no tokennnn");
                 _logger.LogInformation("Token is " + token);
             }
             catch (Exception e)
