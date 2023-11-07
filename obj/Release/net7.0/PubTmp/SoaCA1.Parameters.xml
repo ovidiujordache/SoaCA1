@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="SoaCA120231106022850" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ovi_j\\source\\repos\\ServiceOrientedArchitectureCA1\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
