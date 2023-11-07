@@ -49,6 +49,18 @@
       "PackagePath": "staticwebassets\\fonts\\ionicons.woff"
     },
     {
+      "Id": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\book.jpg",
+      "PackagePath": "staticwebassets\\images\\book.jpg"
+    },
+    {
+      "Id": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\cocktails.jpg",
+      "PackagePath": "staticwebassets\\images\\cocktails.jpg"
+    },
+    {
+      "Id": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\lake.jpg",
+      "PackagePath": "staticwebassets\\images\\lake.jpg"
+    },
+    {
       "Id": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
