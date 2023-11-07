@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s8byuZto/p0oSoNu71vMNoGeEo8Eg/dBI3eNkiC6mpo=",
+  "Hash": "CIh9mWAih6julp9gk0HsrBIdVHrlvt0bXbLi199F/o4=",
   "Source": "SoaCA1",
   "BasePath": "_content/SoaCA1",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cocktails.jpg"
+    },
+    {
+      "Identity": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\jazz.jpg",
+      "SourceId": "SoaCA1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\",
+      "BasePath": "_content/SoaCA1",
+      "RelativePath": "images/jazz.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\jazz.jpg"
     },
     {
       "Identity": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\lake.jpg",

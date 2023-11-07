@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\images\\cocktails.jpg"
     },
     {
+      "Id": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\jazz.jpg",
+      "PackagePath": "staticwebassets\\images\\jazz.jpg"
+    },
+    {
       "Id": "E:\\PROJECTS_YEAR_4\\SOA\\SoaCA1\\wwwroot\\images\\lake.jpg",
       "PackagePath": "staticwebassets\\images\\lake.jpg"
     },

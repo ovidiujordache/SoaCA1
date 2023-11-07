@@ -52,3 +52,6 @@ image{
 .jazzy-content{
     align-content:center
 }
+.btn-primary:hover{
+    color:black;
+}
